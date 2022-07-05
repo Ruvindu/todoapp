@@ -18,7 +18,7 @@ todoapp developed using Spring boot rest APIs.
 }
 </pre>
  
-<br><br>
+<br>
   
 <b>Create todo</b><br>
 <i>http://localhost:8080/api/v1/createtodo</i>
@@ -34,3 +34,68 @@ todoapp developed using Spring boot rest APIs.
     }
 }
 </pre>
+  
+<br>
+  
+<b>GET<b>
+  
+<b>Get category</b><br>
+<i>http://localhost:8080/api/v1/getcates</i>
+
+<br>
+  
+<b>Get todos</b><br>
+<i>http://localhost:8080/api/v1/gettodos</i>
+  
+<br>
+  
+<b>Get important todos</b><br>
+<i>http://localhost:8080/api/v1/getimportants</i>
+ 
+  
+<br>
+  
+<b>Get todos cat wise</b><br>
+<i>http://localhost:8080/api/v1/gettodosbycat/3</i>
+  
+<b>PUT<b>
+  
+<b>Update todo</b><br>
+<i>http://localhost:8080/api/v1/updatetodo</i>
+<pre>
+{   
+     "todoId":1,
+    "title": "Go to Shopping",
+    "description": "",
+    "remind": 1,
+    "important": 0,
+    "status": 0,
+    "remind_at": "2022-06-25T05:34:50.00",
+    "todoCategory": {
+        "catId":3
+    }
+}
+</pre>
+  
+<br>
+  
+<b>Update todo as important</b><br>
+<i>http://localhost:8080/api/v1/updateimportant</i>
+<pre>
+{
+    "todo_id":1,
+    "important": true
+}
+</pre>
+  
+<br>
+  
+<b>Update todo status</b><br>
+<i>http://localhost:8080/api/v1/updatestatus</i>
+<pre>
+{
+    "todo_id":1,
+    "status": -1
+}
+</pre>
+  
