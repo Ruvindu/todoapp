@@ -9,7 +9,7 @@ todoapp developed using Spring boot rest APIs.
   
 <b>POST</b>
 
-<span>Create category</span><br>
+Create category<br>
 <i>http://localhost:8080/api/v1/createcate</i>
 <pre>
 {
@@ -20,7 +20,7 @@ todoapp developed using Spring boot rest APIs.
  
 <br>
   
-<span>Create todo</span><br>
+Create todo<br>
 <i>http://localhost:8080/api/v1/createtodo</i>
 <pre>
 {
@@ -40,28 +40,28 @@ todoapp developed using Spring boot rest APIs.
   
 <b>GET</b>
   
-<span>Get category</span><br>
+Get category<br>
 <i>http://localhost:8080/api/v1/getcates</i>
 
 <br>
   
-<span>Get todos</span><br>
+Get todos<br>
 <i>http://localhost:8080/api/v1/gettodos</i>
   
 <br>
   
-<span>Get important todos</b><br>
+Get important todos<br>
 <i>http://localhost:8080/api/v1/getimportants</i>
  
   
 <br>
   
-<span>Get todos cat wise</span><br>
+Get todos cat wise<br>
 <i>http://localhost:8080/api/v1/gettodosbycat/3</i>
   
 <b>PUT</b>
   
-<span>Update todo</span><br>
+Update todo<br>
 <i>http://localhost:8080/api/v1/updatetodo</i>
 <pre>
 {   
@@ -80,7 +80,7 @@ todoapp developed using Spring boot rest APIs.
   
 <br>
   
-<span>Update todo as important</span><br>
+Update todo as important<br>
 <i>http://localhost:8080/api/v1/updateimportant</i>
 <pre>
 {
@@ -91,7 +91,7 @@ todoapp developed using Spring boot rest APIs.
   
 <br>
   
-<span>Update todo status</span><br>
+Update todo status<br>
 <i>http://localhost:8080/api/v1/updatestatus</i>
 <pre>
 {
